@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    position: absolute;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+    width: auto;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 1%;
+    font-size: 100px;
+}
+
+#forText {
+    position: relative;
+    left: 5%;
+    top: 20%;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#container {
+    position: relative;
+    width: 880px;
+    height: 600px;
+    margin-top: 5%;
+    margin-left: 20%;
+    background-image: url("../images/background.png");
+    
+}
+
+#imageContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+.firstButton {
+    position: absolute;
+    background-image: url("../images/secondGem.png");
+    right: 20px;
+    top: 20px;
+    width: 110px;
+    height: 100px;
+}
+
+.secondButton {
+    position: absolute;
+    background-image: url("../images/firstGem.png");
+    left: 20px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.thirdButton {
+    position: absolute;
+    background-image: url("../images/fifthGem.png");
+    background-repeat: repeat;
+    right: 20px;
+    bottom: 20px;
+    width: 110px;
+    height: 110px;
+}
+
+.fourthButton {
+    position: absolute;
+    background-image: url("../images/sixthGem.png");
+    left: 20px;
+    bottom: 20px;
+    width: 110px;
+    height: 110px;
+}
+
+
+#forAllScores {
+    position: absolute;
+    height: 240px;
+    width: 550px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+#targetScoreCSS {
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    bottom: 20px;
+    left: 20px;
+    background-color: #00B212;
+    color: black;
+}
+
+#winsAndLossesCSS {
+    position: absolute;
+    height: 200px;
+    width: 180px;
+    bottom: 20px;
+    left: 185px;
+    background-color: #00B212;
+    color: black;
+}
+
+#yourScoreCSS {
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00B212;
+    color: black;
+}
