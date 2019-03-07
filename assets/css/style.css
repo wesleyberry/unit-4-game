@@ -51,7 +51,6 @@ h3 {
     margin-left: 21%;
     background-image: url("../images/background.png");
     box-shadow: 15px 15px 5px #484848;
-    
 }
 
 .strong {
@@ -176,4 +175,238 @@ h3 {
     text-align: center;
     font-size: 100px;
     color: #00B212;
+}
+
+@media screen and (max-width: 575px) {
+    #container {
+        width: 90%;
+        height: 700px;
+        margin-top: 0;
+        margin-left: 3%;
+    }
+    h1 {
+        position: fixed;
+        width: auto;
+        height: 15%;
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 50px;
+        float: left;
+    }
+    #animateWin {
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        right: 20px;
+        top: 50px;
+        text-align: center;
+        font-size: 100px;
+        color: #00B212;
+    }
+    #forAllScores {
+        width: 100%;;
+        bottom: 0;
+    }
+    #targetScoreCSS {
+        bottom: 10px;
+        left: 0;
+        width: 30%;
+    }  
+    #winsAndLossesCSS {
+        bottom: 10px;
+        left: 33%;
+        width: 34%;
+    }   
+    #yourScoreCSS {
+        bottom: 10px;
+        right: 0;
+        width: 30%;
+    }
+    #forText {
+        left: 5%;
+        top: 22%;
+        color: white;
+        width: 60%;
+        height: 40%;
+        font-size: 2vw;
+        z-index: -1;
+        position: relative;
+    }
+    #imageContainer {
+        position: fixed;
+        top: 150px;
+        width: 300px;
+        height: 300px;
+        left: 10%;
+        right: auto;
+        bottom: auto;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    #container {
+        width: 80%;
+        height: 720px;
+        margin-top: 0;
+        margin-left: 8%;
+    }
+    h1 {
+        width: 80%;
+        height: 15%;
+        margin-left: 3%;
+        margin-top: 1%;
+        font-size: 80px;
+        float: left;
+    }
+    #forAllScores {
+        width: 100%;;
+        bottom: 0;
+    }
+    #targetScoreCSS {
+        bottom: 2%;
+        left: 2%;
+        width: 25%;
+    }  
+    #winsAndLossesCSS {
+        bottom: 2%;
+        left: 32%;
+        width: 35%;
+    }   
+    #yourScoreCSS {
+        bottom: 2%;
+        left: 73%;
+        width: 25%;
+    }
+    #forText {
+        left: 5%;
+        top: 22%;
+        color: white;
+        width: 60%;
+        height: 40%;
+        font-size: 2vw;
+    }
+    .firstButton {
+        top: 20px;
+        right: 20px;
+    }
+    .secondButton {
+        top: 150px;
+        right: 20px;
+        left: auto;
+    }
+    .thirdButton {
+        top: 270px;
+        right: 20px;
+    }
+    .fourthButton {
+        top: 390px;
+        right: 20px;
+        left: auto;
+    }
+    #imageContainer {
+        top: 0;
+        bottom: auto;
+    }
+    #animateWin {
+        position: fixed;
+        width: 300px;
+        height: 150px;
+        right: 30%;
+        top: 5%;
+        text-align: center;
+        font-size: 100px;
+        color: #00B212;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    #container {
+        width: 80%;
+        height: 680px;
+        margin-top: 20px;
+        margin-left: 8%;
+    }
+    h1 {
+        width: auto;
+        height: 15%;
+        margin-left: 6%;
+        margin-top: 1%;
+        font-size: 80px;
+        float: left;
+    }
+    #forAllScores {
+        width: 70%;;
+        bottom: 0;
+    }
+    #targetScoreCSS {
+        bottom: 2%;
+        left: 2%;
+        width: 25%;
+    }  
+    #winsAndLossesCSS {
+        bottom: 2%;
+        left: 35%;
+        width: 30%;
+    }   
+    #yourScoreCSS {
+        bottom: 2%;
+        right: 2%;
+        width: 25%
+    }
+    #forText {
+        left: 5%;
+        top: 15%;
+        color: white;
+        width: 60%;
+        height: 40%;
+        font-size: 2vw;
+    }
+    .firstButton {
+        top: 20px;
+        right: 20px;
+    }
+    .secondButton {
+        top: 150px;
+        right: 20px;
+        left: auto;
+    }
+    .thirdButton {
+        top: 270px;
+        right: 20px;
+    }
+    .fourthButton {
+        top: 390px;
+        right: 20px;
+        left: auto;
+    }
+    #imageContainer {
+        float: right;
+        width: 300px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    #container {
+        width: 80%;
+        height: 600px;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    #targetScoreCSS {
+        bottom: 20px;
+        left: 10px;
+    }  
+    #winsAndLossesCSS {
+        bottom: 20px;
+        left: 165px;
+    }   
+    #yourScoreCSS {
+        bottom: 20px;
+        right: 50px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
 }
