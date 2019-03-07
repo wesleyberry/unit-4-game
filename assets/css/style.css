@@ -21,6 +21,7 @@ h1 {
     left: 5%;
     top: 20%;
     color: white;
+    width: 60%;
 }
 
 p {
@@ -164,4 +165,15 @@ h3 {
 #winsJQ,
 #lossesJQ {
     margin-top: 10px
+}
+
+#animateWin {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    right: 20px;
+    top: 170px;
+    text-align: center;
+    font-size: 100px;
+    color: #00B212;
 }

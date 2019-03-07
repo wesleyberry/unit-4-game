@@ -32,6 +32,9 @@ $(document).ready(function() {
     function checkWin(){
         if(startScore == theRandomScore) {
             wins++;
+            $("#animateWin").text("+ Win").slideToggle(2000, function() {
+                $("#animateWin").hide();
+            });
             console.log("Wins: " + wins);
             $("#winsJQ").text(wins);
             startScore = 0;
@@ -44,6 +47,9 @@ $(document).ready(function() {
         } 
         else if (startScore > theRandomScore) {
             losses++;
+            $("#animateWin").text("+ Loss").slideToggle(2000, function() {
+                $("#animateWin").hide();
+            });
             console.log("Losses: " + losses);
             $("#lossesJQ").text(losses);
             startScore = 0; 
@@ -55,6 +61,7 @@ $(document).ready(function() {
             $("#targetScoreJQ").text(theRandomScore);
         }
     }
+    
 
     // Click Events:
     $(".firstButton").on("click", function() {
