@@ -1,16 +1,19 @@
 body {
-    background-color: black;
+    background-image: url("../images/ruby.png");
+    background-repeat: space;
 }
 
 h1 {
+    text-shadow: 2px 2px 5px white;
     position: absolute;
     font-family: "Arial Black", Gadget, sans-serif;
-    color: white;
+    color: #00B212;
     width: auto;
     height: 20%;
-    margin-left: 30%;
+    margin-left: 14%;
     margin-top: 1%;
     font-size: 100px;
+    float: left;
 }
 
 #forText {
@@ -44,9 +47,15 @@ h3 {
     width: 880px;
     height: 600px;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 21%;
     background-image: url("../images/background.png");
+    box-shadow: 15px 15px 5px #484848;
     
+}
+
+.strong {
+    font-weight: bold;
+    font-size: 26px;
 }
 
 #imageContainer {
@@ -95,6 +104,13 @@ h3 {
     height: 100px;
 }
 
+.firstButton:hover,
+.secondButton:hover,
+.thirdButton:hover,
+.fourthButton:hover {
+    transform: scale(1.2);
+  }
+
 
 #forAllScores {
     position: absolute;
@@ -103,6 +119,8 @@ h3 {
     bottom: 0;
     left: 0;
     text-align: center;
+    text-shadow: 2px 2px 5px white;
+    color: #B20039;
 }
 
 #targetScoreCSS {
