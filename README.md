@@ -19,6 +19,8 @@ How users can get started with the project
 
 Where users can get help with your project
     User's can contact the developer by clicking on the 'contact' page located in https://wesleyberry.github.io/Responsive-Portfolio/ and submitting a message.
+    Find the deployed page here:
+    https://wesleyberry.github.io/unit-4-game/
 
 Who maintains and contributes to the project
     My name is Wesley Berry, and I maintain and contribute to the project.
